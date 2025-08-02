@@ -85,7 +85,7 @@ $$
 
 thus
 
-$$
+```math
 \begin{align*}
 \dfrac{\partial L}{\partial A_{cd}}&=\sum_{ab}\dfrac{\partial L}{\partial D_{ab}}\dfrac{\partial D_{ab}}{\partial A_{cd}}\\
 &=\sum_b\dfrac{\partial L}{\partial D_{cb}}D_{cb}(\delta_{b,d}-D_{cd})\\
@@ -94,7 +94,7 @@ $$
 &=D_{cd}\left(\sum_{m}\dfrac{\partial L}{\partial O_{cm}}V_{dm}-\sum_n\dfrac{\partial L}{\partial O_{cn}}O_{cn}\right)\\
 &=D_{cd}\left(\left(\dfrac{\partial L}{\partial D}\right)_{cd}-\sum_n\dfrac{\partial L}{\partial O_{cn}}O_{cn}\right)
 \end{align*}
-$$
+```
 
 This allows us to calculate all the gradients by propagating through $A$.
 
